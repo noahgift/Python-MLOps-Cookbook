@@ -1,0 +1,7 @@
+scikit-learn==0.24.0
+pandas==1.2.3
+pylint==2.7.2
+pytest==6.2.2
+black==20.8b1
+click==7.1.2
+Flask==1.1.2
