@@ -3,10 +3,10 @@ This is an example of a Containerized Flask Application
 
 ## Assets in repo
 
-* `Makefile`
-* `requirements.txt`
-* `cli.py`
-* `app.py`
+* `Makefile`:  https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Makefile
+* `requirements.txt`:  https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/requirements.txt
+* `cli.py`" https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/cli.py
+* `app.py`:  https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/app.py
 * `model.joblib`: https://github.com/noahgift/Python-MLOps-Cookbook/raw/781053e4d45ebeeb64ecdf2dc1b896b338530aab/model.joblib
 * `Dockerfile`:  https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Dockerfile
 *  Notebook:  [Baseball_Predictions_Export_Model.ipynb](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Baseball_Predictions_Export_Model.ipynb)
