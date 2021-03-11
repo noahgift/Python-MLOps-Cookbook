@@ -9,6 +9,7 @@ This is an example of a Containerized Flask Application
 * `app.py`
 * `model.joblib`
 * `Dockerfile`
+* [Baseball_Predictions_Export_Model.ipynb](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Baseball_Predictions_Export_Model.ipynb)
 
 
 ![Course2-Duke-Flask-Containerized](https://user-images.githubusercontent.com/58792/110816231-289cd880-8259-11eb-8ab7-45c4ef5190ad.png)
