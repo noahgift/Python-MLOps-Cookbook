@@ -18,3 +18,5 @@ This is an example of a Containerized Flask Application
 ## DataScience Workflow
 
 ![mlb-ht-wt](https://user-images.githubusercontent.com/58792/110829008-a7980e00-8265-11eb-883d-4a87fe6f0a84.png)
+
+This repository is focused on MLOps.  To see more about Data Storytelling, you can go to this [Github repo on Data Story Telling](https://github.com/noahgift/data-story-telling)
