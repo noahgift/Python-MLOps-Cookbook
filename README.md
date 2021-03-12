@@ -34,6 +34,37 @@ For example, this version doesn't change the default `model_name`, but you could
 Here is an example retraining the model.
 ![model-retraining](https://user-images.githubusercontent.com/58792/110986838-31b2a600-833c-11eb-977f-13143d4471c7.png)
 
+### Flask Microservice
+
+You can run the Flask Microservice as follows with the commmand: `python app.py`.
+
+```
+(.venv) ec2-user:~/environment/Python-MLOps-Cookbook (main) $ python app.py 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-481-511
+```
+
+To serve a prediction against the application, run the `predict.sh`.
+
+
+```
+(.venv) ec2-user:~/environment/Python-MLOps-Cookbook (main) $ ./predict.sh                             
+Port: 8080
+{
+  "prediction": {
+    "height_human_readable": "6 foot, 2 inches", 
+    "height_inches": 73.61
+  }
+}
+```
+
 
 
 ## DataScience Workflow
