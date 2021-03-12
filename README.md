@@ -8,6 +8,7 @@ This is an example of a Containerized Flask Application
 * `cli.py`: [View cli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/cli.py)
 * `app.py`:  [View app.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/app.py)
 * `mlib.py`:  Model Handling Library
+* `htwtmlb.csv1`: Useful for input scaling
 * `model.joblib`: [View model.joblib](https://github.com/noahgift/Python-MLOps-Cookbook/raw/781053e4d45ebeeb64ecdf2dc1b896b338530aab/model.joblib)
 * `Dockerfile`:  [View Dockerfile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Dockerfile)
 *  `Baseball_Predictions_Export_Model.ipynb`:  [Baseball_Predictions_Export_Model.ipynb](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Baseball_Predictions_Export_Model.ipynb)
