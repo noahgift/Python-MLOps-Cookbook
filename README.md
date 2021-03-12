@@ -1,8 +1,8 @@
 [![Python application test with Github Actions](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml)
 
 
-# Containerized-Flask-Machine-Learning
-This is an example of a Containerized Flask Application
+# Python MLOps Cookbook 
+This is an example of a Containerized Flask Application the can be the core ingrediant in many "recipies", i.e. deploy targets.
 
 ## Assets in repo
 
