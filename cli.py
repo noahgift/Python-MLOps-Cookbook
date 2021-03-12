@@ -20,7 +20,6 @@ def predictcli(weight):
     else:
         click.echo(click.style(human_readable, bg="red", fg="white"))
 
-
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
     predictcli()

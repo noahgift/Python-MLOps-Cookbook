@@ -9,6 +9,7 @@ This is an example of a Containerized Flask Application the can be the core ingr
 * `Makefile`:  [View Makefile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Makefile)
 * `requirements.txt`:  [View requirements.txt](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/requirements.txt)
 * `cli.py`: [View cli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/cli.py)
+* `utilscli.py`: [View utilscli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/utilscli.py)
 * `app.py`:  [View app.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/app.py)
 * `mlib.py`:  Model Handling Library
 * `htwtmlb.csv1`: [View CSV](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/htwtmlb.csv) Useful for input scaling
@@ -18,11 +19,21 @@ This is an example of a Containerized Flask Application the can be the core ingr
 
 ![Course2-Duke-Flask-Containerized](https://user-images.githubusercontent.com/58792/110816231-289cd880-8259-11eb-8ab7-45c4ef5190ad.png)
 
-### CLI
+### CLI Tools
 
+There are two cli tools.  First, the main `cli.py` is the endpoint that serves out predictions.
 To predict the height of an MLB player you use the following: ` ./cli.py --weight 180`
 
 ![predict-height-weight](https://user-images.githubusercontent.com/58792/110970118-6c5e1380-8327-11eb-95b2-aeba679c0270.png)
+
+The second cli tool is `utilscli.py` and this perform model retraining, and could serve as the entry point to do more things.
+For example, this version doesn't change the default `model_name`, but you could add that as an option by forking this repo.
+
+`./utilscli.py retrain --tsize 0.4`
+
+Here is an example retraining the model.
+![model-retraining](https://user-images.githubusercontent.com/58792/110986838-31b2a600-833c-11eb-977f-13143d4471c7.png)
+
 
 
 ## DataScience Workflow
