@@ -46,7 +46,6 @@ def retrain(tsize=0.1, model_name="model.joblib"):
         test_size=tsize, random_state=3)
     clf = Ridge()
     model = clf.fit(X_train, y_train)
-    predictions = clf.predict(X_test)
     accuracy = model.score(X_test, y_test)
     logging.debug(f"Model Accuracy: {accuracy}")
     joblib.dump(model, model_name)
