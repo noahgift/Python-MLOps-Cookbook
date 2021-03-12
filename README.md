@@ -91,7 +91,7 @@ docker image ls
 docker run -p 127.0.0.1:8080:8080 noahgift/mlops-cookbook
 ```
 
-#### Automatically Build Container via Github Actions and Push to Container Registery
+#### Automatically Build Container via Github Actions and Push to Github Container Registery
 
 To setup the container build process do the following.  This is also covered by Alfredo Deza in Practical MLOps book in greater detail.
 
@@ -117,6 +117,48 @@ To setup the container build process do the following.  This is also covered by 
 ```
 
 ![container-registry](https://user-images.githubusercontent.com/58792/111001486-d8ee0800-8351-11eb-984a-967558023cc8.png)
+
+#### Automatically Build Container via Github Actions and Push to Dockerhub Container Registery
+
+
+## Build Targets
+
+With the project using DevOps/MLOps best practices including linting, testing, and deployment, this project can be the base to deploy to many deployment targets.
+
+[In progress....]
+
+
+### Other Tools and Frameworks
+
+[In progress....]
+
+#### FastAPI
+
+* [fastapi](https://fastapi.tiangolo.com)
+
+
+### AWS
+
+#### Elastic Beanstalk
+
+#### AWS Lambda
+
+### GCP
+
+#### Cloudrun
+
+#### App Engine
+
+#### GKE (Kubernetes)
+
+### Azure App Services
+
+
+
+
+
+
+
 
 
 
