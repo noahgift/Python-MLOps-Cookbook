@@ -1,4 +1,4 @@
-from mlib import format_input
+from mlib import format_input, scale_input
 import numpy as np
 import pytest
 
@@ -10,3 +10,6 @@ def test_array():
 
 def test_format_input(test_array):
     assert test_array.shape == format_input(2).shape
+
+def test_scale_input(test_array):
+    assert int(scale_input(test_array)) == int(np.array([[-9.56513601]]))

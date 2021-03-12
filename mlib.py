@@ -3,6 +3,7 @@
 import numpy as np
 import pandas as pd
 import joblib
+from sklearn.preprocessing import StandardScaler
 
 def load_model():
     """Grabs model from disk"""
@@ -22,8 +23,16 @@ def format_input(x):
     return feature
     
 
-def scale_input():
-    pass
+def scale_input(val):
+    """Scales input to training feature values""" 
+    
+    
+    df = data()
+    features = df["Weight"].values
+    features = features.reshape(-1, 1)
+    input_scaler = StandardScaler().fit(features)
+    scaled_input = input_scaler.transform(val)
+    return scaled_input
 
-def scale_output():
+def scale_output(val):
     pass
