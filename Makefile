@@ -3,13 +3,12 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_cli.py
+	python -m pytest -vv test_mlib.py
 
 format:
 	black *.py
 
-
 lint:
-	pylint --disable=R,C cli.py app.py
+	pylint --disable=R,C mlib.py
 
 all: install lint test
