@@ -37,7 +37,7 @@ jobs:
       with:
         context: ./
         #tags: alfredodeza/flask-roberta:latest
-        tags: ghcr.io/noahgift/Python-MLOps-Cookbook:latest
+        tags: ghcr.io/noahgift/python-mlops-cookbook:latest
         push: true
     
     
