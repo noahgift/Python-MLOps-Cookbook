@@ -4,6 +4,9 @@
 # Python MLOps Cookbook 
 This is an example of a Containerized Flask Application the can be the core ingrediant in many "recipies", i.e. deploy targets.
 
+![9781098103002](https://user-images.githubusercontent.com/58792/111000927-eb1b7680-8350-11eb-8e24-d41064590fc1.jpeg)
+
+
 ## Assets in repo
 
 * `Makefile`:  [View Makefile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Makefile)
