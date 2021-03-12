@@ -6,7 +6,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 import logging
 
-logging.basicConfig(encoding="utf-8", level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 import warnings
 
@@ -92,5 +92,5 @@ def predict(weight):
         "height_predict": height_predict,
         "human_readable_payload": payload,
     }
-    logging.debug({predict_log_data})
+    logging.debug(f"Prediction: {predict_log_data}")
     return payload
