@@ -12,7 +12,7 @@ This is an example of a Containerized Flask Application the can be the core ingr
 * `utilscli.py`: [View utilscli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/utilscli.py)
 * `app.py`:  [View app.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/app.py)
 * `mlib.py`:  Model Handling Library
-* `htwtmlb.csv1`: [View CSV](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/htwtmlb.csv) Useful for input scaling
+* `htwtmlb.csv`: [View CSV](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/htwtmlb.csv) Useful for input scaling
 * `model.joblib`: [View model.joblib](https://github.com/noahgift/Python-MLOps-Cookbook/raw/781053e4d45ebeeb64ecdf2dc1b896b338530aab/model.joblib)
 * `Dockerfile`:  [View Dockerfile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Dockerfile)
 *  `Baseball_Predictions_Export_Model.ipynb`:  [Baseball_Predictions_Export_Model.ipynb](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Baseball_Predictions_Export_Model.ipynb)
@@ -33,6 +33,37 @@ For example, this version doesn't change the default `model_name`, but you could
 
 Here is an example retraining the model.
 ![model-retraining](https://user-images.githubusercontent.com/58792/110986838-31b2a600-833c-11eb-977f-13143d4471c7.png)
+
+### Flask Microservice
+
+You can run the Flask Microservice as follows with the commmand: `python app.py`.
+
+```
+(.venv) ec2-user:~/environment/Python-MLOps-Cookbook (main) $ python app.py 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-481-511
+```
+
+To serve a prediction against the application, run the `predict.sh`.
+
+
+```
+(.venv) ec2-user:~/environment/Python-MLOps-Cookbook (main) $ ./predict.sh                             
+Port: 8080
+{
+  "prediction": {
+    "height_human_readable": "6 foot, 2 inches", 
+    "height_inches": 73.61
+  }
+}
+```
 
 
 
