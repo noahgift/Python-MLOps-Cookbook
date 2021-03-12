@@ -15,7 +15,6 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
-
 def load_model(model="model.joblib"):
     """Grabs model from disk"""
 
@@ -27,29 +26,32 @@ def data():
     df = pd.read_csv("htwtmlb.csv")
     return df
 
+
 def retrain(tsize=0.1, model_name="model.joblib"):
     """Retrains the model
-    
+
     See this notebook: Baseball_Predictions_Export_Model.ipynb
     """
     df = data()
-    y = df['Height'].values #Target
+    y = df["Height"].values  # Target
     y = y.reshape(-1, 1)
-    X = df['Weight'].values #Feature(s)
-    X = X.reshape(-1,1)    
+    X = df["Weight"].values  # Feature(s)
+    X = X.reshape(-1, 1)
     scaler = StandardScaler()
     X_scaler = scaler.fit(X)
     X = X_scaler.transform(X)
     y_scaler = scaler.fit(y)
     y = y_scaler.transform(y)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, 
-        test_size=tsize, random_state=3)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=tsize, random_state=3
+    )
     clf = Ridge()
     model = clf.fit(X_train, y_train)
     accuracy = model.score(X_test, y_test)
     logging.debug(f"Model Accuracy: {accuracy}")
     joblib.dump(model, model_name)
     return accuracy, model_name
+
 
 def format_input(x):
     """Takes int and converts to numpy array"""

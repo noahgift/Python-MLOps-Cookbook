@@ -1,9 +1,10 @@
 from mlib import format_input, scale_input, height_human
 import numpy as np
 import pytest
-from click.testing import CliRunner 
+from click.testing import CliRunner
 from cli import predictcli
 import utilscli
+
 
 @pytest.fixture
 def test_array():
@@ -24,13 +25,15 @@ def test_height_human():
     assert "6 foot, 1 inches" == height_human(73.4)
     assert "5 foot, 11 inches" == height_human(71.1)
 
+
 def test_clisearch():
     runner = CliRunner()
-    result = runner.invoke(predictcli, ['--weight', '180'])
+    result = runner.invoke(predictcli, ["--weight", "180"])
     assert result.exit_code == 0
-    assert '6 foot, 0 inches' in result.output
-    
+    assert "6 foot, 0 inches" in result.output
+
+
 def test_retrain():
     runner = CliRunner()
-    result = runner.invoke(utilscli.cli, ['--version'])
+    result = runner.invoke(utilscli.cli, ["--version"])
     assert result.exit_code == 0
