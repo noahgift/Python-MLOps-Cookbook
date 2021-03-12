@@ -1,25 +1,24 @@
 #!/usr/bin/env python
 import click
-
-def marco(name):
-    if name == "Marco":
-        return "Polo"
-    return "No!"
+from mlib import predict
 
 @click.command()
 @click.option(
-    "--name",
-    prompt="Pass in a name",
-    help="This is the name you pass into the Marco Polo function",
+    "--weight",
+    prompt="MLB Player Weight",
+    help="Pass in the weight of a MLB player to predict the height",
 )
-def func(name):
-    """A command-line tool that accepts a name and returns a respons"""
+def predictcli(weight):
+    """Predicts Height of an MLB player based on weight"""
 
-    result = marco(name)
-    if result == "Polo":
-        click.echo(click.style(result, bg="green", fg="white"))
+    result = predict(weight)
+    inches = result['height_inches']
+    human_readable = result['height_human_readable']
+    if int(inches) > 72:
+        click.echo(click.style(human_readable, bg="green", fg="white"))
     else:
-        click.echo(click.style(result, bg="red", fg="white"))
+        click.echo(click.style(human_readable, bg="red", fg="white"))
 
 if __name__ == "__main__":
-    func()
+    #pylint: disable=no-value-for-parameter
+    predictcli()
