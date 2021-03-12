@@ -1,4 +1,4 @@
-python:3.8.8-slim-buster
+FROM python:3.8.8-slim-buster
 
 # Working Directory
 WORKDIR /app
@@ -12,7 +12,7 @@ RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 8080
 
 # Run app.py at container launch
 CMD ["python", "app.py"]
