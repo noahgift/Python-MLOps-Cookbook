@@ -22,8 +22,7 @@ jobs:
       run: |
         make format
   
-    build-container:
-    runs-on: ubuntu-latest
+  build-container:
     steps:
     - uses: actions/checkout@v2
     - name: Loging to Github registry
