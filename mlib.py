@@ -14,6 +14,14 @@ def data():
     df = pd.read_csv("htwtmlb.csv")
     return df
 
+def format_input(x):
+    """Takes int and converts to numpy array"""
+    
+    val = np.array(x)
+    feature = val.reshape(-1,1)
+    return feature
+    
+
 def scale_input():
     pass
 
