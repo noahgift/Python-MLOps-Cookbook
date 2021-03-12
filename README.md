@@ -39,6 +39,10 @@ Here is an example retraining the model.
 
 ### Flask Microservice
 
+The Flask ML Microservice can be run many ways.
+
+#### Containerized Flask Microservice Locally
+
 You can run the Flask Microservice as follows with the commmand: `python app.py`.
 
 ```
@@ -67,6 +71,53 @@ Port: 8080
   }
 }
 ```
+
+
+#### Containerized Flask Microservice
+
+Here is an example of how to build the container and run it locally, this is the contents of [predict.sh](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/predict.sh)
+
+```
+#!/usr/bin/env bash
+
+# Build image
+#change tag for new container registery, gcr.io/bob
+docker build --tag=noahgift/mlops-cookbook . 
+
+# List docker images
+docker image ls
+
+# Run flask app
+docker run -p 127.0.0.1:8080:8080 noahgift/mlops-cookbook
+```
+
+#### Automatically Build Container via Github Actions and Push to Container Registery
+
+To setup the container build process do the following.  This is also covered by Alfredo Deza in Practical MLOps book in greater detail.
+
+```
+  build-container:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Loging to Github registry
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.BUILDCONTAINERS }}
+    - name: build flask app
+      uses: docker/build-push-action@v2
+      with:
+        context: ./
+        #tags: alfredodeza/flask-roberta:latest
+        tags: ghcr.io/noahgift/python-mlops-cookbook:latest
+        push: true 
+    
+```
+
+![container-registry](https://user-images.githubusercontent.com/58792/111001486-d8ee0800-8351-11eb-984a-967558023cc8.png)
+
 
 
 
