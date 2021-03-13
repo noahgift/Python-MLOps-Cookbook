@@ -143,9 +143,12 @@ With the project using DevOps/MLOps best practices including linting, testing, a
 
 #### AWS Lambda
 
+#### AWS Fargate (CaaS:  Container as a Service)
+
+
 ### GCP
 
-#### Cloudrun
+#### Cloudrun (CaaS:  Container as a Service)
 
 #### App Engine
 
