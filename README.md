@@ -158,7 +158,11 @@ With the project using DevOps/MLOps best practices including linting, testing, a
 
 
 
+## Production Patterns
 
+[In progress....]
+
+* Cached model (deploy)
 
 
 
