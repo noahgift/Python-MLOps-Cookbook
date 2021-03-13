@@ -37,6 +37,15 @@ For example, this version doesn't change the default `model_name`, but you could
 Here is an example retraining the model.
 ![model-retraining](https://user-images.githubusercontent.com/58792/110986838-31b2a600-833c-11eb-977f-13143d4471c7.png)
 
+Additionally the you can query the API via the CLI allowing you to change both the host and the value passed into the API.
+This is accomplished through the requests library.
+
+`./utilscli.py predict --weight 400`
+
+![predict-cli](https://user-images.githubusercontent.com/58792/111043970-b6bcbe80-8413-11eb-9298-5d091e5db0dd.png)
+
+
+
 ### Flask Microservice
 
 The Flask ML Microservice can be run many ways.
