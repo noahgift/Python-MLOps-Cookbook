@@ -173,6 +173,9 @@ A great way to test the API Endpoint is with the Cloud9 Environment:
 
 ![invoke-api-gateway](https://user-images.githubusercontent.com/58792/111086910-2b1b5e80-84f5-11eb-901e-807032b7427a.png)
 
+Another way is the the tool "Postman":
+
+![post-man](https://user-images.githubusercontent.com/58792/111086967-746bae00-84f5-11eb-9ca1-6315d3cfa5ed.png)
 
 
 
