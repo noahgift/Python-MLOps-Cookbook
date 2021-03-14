@@ -150,9 +150,11 @@ With the project using DevOps/MLOps best practices including linting, testing, a
 
 #### Elastic Beanstalk
 
-#### AWS Lambda
+#### AWS Lambda Recipes
 
 Install [SAM as documented here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html), AWS Cloud9 has it installed already.
+
+You can [find the recipes here](https://github.com/noahgift/Python-MLOps-Cookbook/tree/main/recipes/aws-lambda-sam)
 
 
 ##### AWS Lambda-SAM Local
