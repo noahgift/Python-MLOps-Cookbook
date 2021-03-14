@@ -165,6 +165,10 @@ Follow recipe in recipe section.
 
 ![sam-guided-deploy](https://user-images.githubusercontent.com/58792/111085621-7d0cb600-84ee-11eb-8405-e94ceb5d737e.png)
 
+When deployed an easy way to verify image is via Console.
+
+![invoke-lambda-console](https://user-images.githubusercontent.com/58792/111085839-92361480-84ef-11eb-8cdb-092dbd94e2d1.png)
+
 
 #### AWS Fargate (CaaS:  Container as a Service)
 
