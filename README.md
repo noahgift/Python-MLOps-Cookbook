@@ -152,6 +152,9 @@ With the project using DevOps/MLOps best practices including linting, testing, a
 
 #### AWS Lambda
 
+Install [SAM as documented here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html), AWS Cloud9 has it installed already.
+
+
 #### AWS Fargate (CaaS:  Container as a Service)
 
 
