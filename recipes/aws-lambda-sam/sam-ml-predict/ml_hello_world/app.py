@@ -3,15 +3,20 @@ import mlib
 
 
 def lambda_handler(event, context):
-    """Sample pure Lambda function
+    """Sample pure Lambda function"""
 
-    """
-    
-    default_input = 200
-    prediction = mlib.predict(default_input)
     print(f"Event Body {event}")
-    return {
-        "statusCode": 200,
-        "body": json.dumps(prediction
-        ),
-    }
+    if event and "Weight" in event:
+        weight = event["Weight"]
+        prediction = mlib.predict(weight)
+        print(f"Prediction: {prediction}")
+        return {
+            "statusCode": 200,
+            "body": json.dumps(prediction),
+        }
+    else:
+        payload = {"Message": "Incorrect or Empty Payload"}
+        return {
+            "statusCode": 200,
+            "body": json.dumps(payload),
+        }

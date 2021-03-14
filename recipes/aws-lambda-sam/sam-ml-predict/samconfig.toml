@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-ml-hello"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1odwjh0m3msn1"
+s3_prefix = "sam-ml-hello"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldMLFunction=561744971673.dkr.ecr.us-east-1.amazonaws.com/sam-ml-hello"]

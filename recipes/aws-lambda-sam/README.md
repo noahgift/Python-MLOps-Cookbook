@@ -2,7 +2,9 @@
 
 * Install SAM
 * `sam init`
-* `echo '{"Weight":200 }' | sam local invoke`
+* `sam buid`
+*  `sam local invoke -e payload.json`
+*  `sam deploy --guided`
 
 ### Notes
 
