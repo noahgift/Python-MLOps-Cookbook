@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  python3.8
+
+  Sample SAM Template for sam-ml-predict
+
+Globals:
+  Function:
+    Timeout: 3
+
+Resources:
+  HelloWorldMLFunction:
+    Type: AWS::Serverless::Function 
+    Properties:
+      PackageType: Image
+      Events:
+        HelloWorld:
+          Type: Api 
+          Properties:
+            Path: /predict
+            Method: post
+    Metadata:
+      Dockerfile: Dockerfile
+      DockerContext: ./ml_hello_world
+      DockerTag: python3.8-v1
+
+Outputs:
+  HelloWorldMLApi:
+    Description: "API Gateway endpoint URL for Prod stage for Hello World ML function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/predict/"
+  HelloWorldMLFunction:
+    Description: "Hello World ML Predict Lambda Function ARN"
+    Value: !GetAtt HelloWorldMLFunction.Arn
+  HelloWorldMLFunctionIamRole:
+    Description: "Implicit IAM Role created for Hello World ML function"
+    Value: !GetAtt HelloWorldMLFunctionRole.Arn
