@@ -159,6 +159,11 @@ Install [SAM as documented here](https://docs.aws.amazon.com/serverless-applicat
 
 ![sam-directory-layout](https://user-images.githubusercontent.com/58792/111075610-32277a00-84bf-11eb-9f61-41adc9f97a21.png)
 
+##### AWS Lambda-SAM Containerized Deploy
+
+Follow recipe in recipe section.
+
+![sam-guided-deploy](https://user-images.githubusercontent.com/58792/111085621-7d0cb600-84ee-11eb-8405-e94ceb5d737e.png)
 
 
 #### AWS Fargate (CaaS:  Container as a Service)
