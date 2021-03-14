@@ -169,6 +169,12 @@ When deployed an easy way to verify image is via Console.
 
 ![invoke-lambda-console](https://user-images.githubusercontent.com/58792/111085839-92361480-84ef-11eb-8cdb-092dbd94e2d1.png)
 
+A great way to test the API Endpoint is with the Cloud9 Environment:
+
+![invoke-api-gateway](https://user-images.githubusercontent.com/58792/111086910-2b1b5e80-84f5-11eb-901e-807032b7427a.png)
+
+
+
 
 #### AWS Fargate (CaaS:  Container as a Service)
 
