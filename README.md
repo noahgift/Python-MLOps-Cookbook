@@ -150,14 +150,34 @@ With the project using DevOps/MLOps best practices including linting, testing, a
 
 #### Elastic Beanstalk
 
-#### AWS Lambda
+#### AWS Lambda Recipes
 
 Install [SAM as documented here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html), AWS Cloud9 has it installed already.
+
+You can [find the recipes here](https://github.com/noahgift/Python-MLOps-Cookbook/tree/main/recipes/aws-lambda-sam)
 
 
 ##### AWS Lambda-SAM Local
 
 ![sam-directory-layout](https://user-images.githubusercontent.com/58792/111075610-32277a00-84bf-11eb-9f61-41adc9f97a21.png)
+
+##### AWS Lambda-SAM Containerized Deploy
+
+Follow recipe in recipe section.
+
+![sam-guided-deploy](https://user-images.githubusercontent.com/58792/111085621-7d0cb600-84ee-11eb-8405-e94ceb5d737e.png)
+
+When deployed an easy way to verify image is via Console.
+
+![invoke-lambda-console](https://user-images.githubusercontent.com/58792/111085839-92361480-84ef-11eb-8cdb-092dbd94e2d1.png)
+
+A great way to test the API Endpoint is with the Cloud9 Environment:
+
+![invoke-api-gateway](https://user-images.githubusercontent.com/58792/111086910-2b1b5e80-84f5-11eb-901e-807032b7427a.png)
+
+Another way is the the tool "Postman":
+
+![post-man](https://user-images.githubusercontent.com/58792/111086967-746bae00-84f5-11eb-9ca1-6315d3cfa5ed.png)
 
 
 
