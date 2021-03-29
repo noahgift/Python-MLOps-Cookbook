@@ -6,6 +6,9 @@ This is an example of a Containerized Flask Application the can be the core ingr
 
 ![9781098103002](https://user-images.githubusercontent.com/58792/111000927-eb1b7680-8350-11eb-8e24-d41064590fc1.jpeg)
 
+## Github Container Registery
+Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-cookbook:latest`
+
 
 ## Assets in repo
 
