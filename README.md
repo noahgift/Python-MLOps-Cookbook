@@ -2,7 +2,7 @@
 
 
 # Python MLOps Cookbook 
-This is an example of a Containerized Flask Application the can be the core ingrediant in many "recipies", i.e. deploy targets.
+This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets.
 
 ![1617813629352](https://user-images.githubusercontent.com/58792/114588914-2f05e200-9c55-11eb-829b-e24064b8d571.jpg)
 
