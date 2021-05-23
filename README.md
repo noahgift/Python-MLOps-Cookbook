@@ -186,6 +186,8 @@ Another way is the the tool "Postman":
 
 #### AWS App Runner
 
+Watch a YouTube Walkthrough on AWS App Runner for this repo here:  https://www.youtube.com/watch?v=zzNnxDTWtXA
+
 ![mlops](https://user-images.githubusercontent.com/58792/119266194-d3196c00-bbb7-11eb-929e-77718411ffd5.jpg)
 
 
