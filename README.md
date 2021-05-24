@@ -17,7 +17,7 @@ Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-coo
 * `cli.py`: [View cli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/cli.py)
 * `utilscli.py`: [View utilscli.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/utilscli.py)
 * `app.py`:  [View app.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/app.py)
-* `mlib.py`:  Model Handling Library
+* `mlib.py`:  [View mlib.py](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/mlib.py)Model Handling Library
 * `htwtmlb.csv`: [View CSV](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/htwtmlb.csv) Useful for input scaling
 * `model.joblib`: [View model.joblib](https://github.com/noahgift/Python-MLOps-Cookbook/raw/781053e4d45ebeeb64ecdf2dc1b896b338530aab/model.joblib)
 * `Dockerfile`:  [View Dockerfile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Dockerfile)
