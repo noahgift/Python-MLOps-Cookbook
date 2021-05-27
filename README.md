@@ -190,6 +190,13 @@ Watch a YouTube Walkthrough on AWS App Runner for this repo here:  https://www.y
 
 ![mlops](https://user-images.githubusercontent.com/58792/119266194-d3196c00-bbb7-11eb-929e-77718411ffd5.jpg)
 
+#### AWS Co-Pilot
+
+
+Following setup here and then deploy project using cli
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
+
+
 
 ### GCP
 
