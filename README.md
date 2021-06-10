@@ -4,7 +4,7 @@
 # Python MLOps Cookbook 
 This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets.
 
-![1617813629352](https://user-images.githubusercontent.com/58792/114588914-2f05e200-9c55-11eb-829b-e24064b8d571.jpg)
+![mlops-color](https://user-images.githubusercontent.com/58792/121539559-c6787e80-c9d3-11eb-9f48-5d25924fad25.png)
 
 ## Github Container Registery
 Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-cookbook:latest`
