@@ -5,6 +5,9 @@
 This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets.
 
 ![mlops-color](https://user-images.githubusercontent.com/58792/121539559-c6787e80-c9d3-11eb-9f48-5d25924fad25.png)
+* [Read Practical MLOps Online](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
+* [Purchase Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
+
 
 ## Github Container Registery
 Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-cookbook:latest`
@@ -196,8 +199,6 @@ Watch a YouTube Walkthrough on AWS App Runner for this repo here:  https://www.y
 Following setup here and then deploy project using cli
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-copilot-cli.html
 
-
-
 ### GCP
 
 #### Cloudrun (CaaS:  Container as a Service)
@@ -209,7 +210,6 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-
 ### Azure App Services
 
 
-
 ## Production Patterns
 
 [In progress....]
@@ -218,13 +218,20 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-
 * Load-testing
 
 
-
-
-
-
-
 ## DataScience Workflow
 
 ![mlb-ht-wt](https://user-images.githubusercontent.com/58792/110829008-a7980e00-8265-11eb-883d-4a87fe6f0a84.png)
 
 This repository is focused on MLOps.  To see more about Data Storytelling, you can go to this [Github repo on Data Story Telling](https://github.com/noahgift/data-story-telling)
+
+
+#### Next Steps:  Take Coursera MLOps Course
+
+![cloud-specialization](https://user-images.githubusercontent.com/58792/121041040-650ca180-c780-11eb-956e-8d1ecb134641.png)
+
+* [Take the Specialization](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Computing Foundations](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Virtualization, Containers and APIs](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Data Engineering](https://www.coursera.org/learn/cloud-data-engineering-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke?specialization=building-cloud-computing-solutions-at-scale)
+
