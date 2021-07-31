@@ -2,6 +2,7 @@
 import click
 from mlib import predict
 
+var=
 
 @click.command()
 @click.option(
