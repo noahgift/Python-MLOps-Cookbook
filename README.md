@@ -203,6 +203,17 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-
 
 #### Cloudrun (CaaS:  Container as a Service)
 
+It is trivial:
+
+A.  Get GCP Account
+B.  Checkout project
+C.  `cloud run deploy` inside of project
+D.  Verify it works by using `./utilscli.py`
+
+![gcp-cloud-run](https://user-images.githubusercontent.com/58792/138346831-6d203164-e224-429f-8fb3-0d7314954697.png)
+
+
+
 #### App Engine
 
 #### GKE (Kubernetes)
