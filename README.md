@@ -1,5 +1,5 @@
 [![Python application test with Github Actions](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml)
-
+[![Python application test with AWS Code Builde](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSjN4ZXRiNllSOVlYWmZqQ2tyS05OOC8wUElNZ05uUFZkVDdKSHVrNzU2L2FzajJXUmlKUngxUkFvOGFTaStMNW9rOUJSS0VTWFRadVpHdWgyN1BLMjA4PSIsIml2UGFyYW1ldGVyU3BlYyI6IjB0anA4VWxkNFBvejJIcE0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 # Python MLOps Cookbook 
 This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets.
