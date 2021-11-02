@@ -203,7 +203,9 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-aws-
 
 #### Cloudrun (CaaS:  Container as a Service)
 
-It is trivial:
+It is trivial (if you select project):
+
+`gcloud config set project <yourprojectname>`
 
 A.  Get GCP Account
 B.  Checkout project
