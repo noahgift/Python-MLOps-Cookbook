@@ -2,7 +2,7 @@
 [![Python application test with AWS Code Builde](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSjN4ZXRiNllSOVlYWmZqQ2tyS05OOC8wUElNZ05uUFZkVDdKSHVrNzU2L2FzajJXUmlKUngxUkFvOGFTaStMNW9rOUJSS0VTWFRadVpHdWgyN1BLMjA4PSIsIml2UGFyYW1ldGVyU3BlYyI6IjB0anA4VWxkNFBvejJIcE0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 # Python MLOps Cookbook 
-This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets.
+This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets..
 
 ![mlops-color](https://user-images.githubusercontent.com/58792/121539559-c6787e80-c9d3-11eb-9f48-5d25924fad25.png)
 * [Read Practical MLOps Online](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
