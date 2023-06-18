@@ -2,7 +2,7 @@
 [![Python application test with AWS Code Builde](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSjN4ZXRiNllSOVlYWmZqQ2tyS05OOC8wUElNZ05uUFZkVDdKSHVrNzU2L2FzajJXUmlKUngxUkFvOGFTaStMNW9rOUJSS0VTWFRadVpHdWgyN1BLMjA4PSIsIml2UGFyYW1ldGVyU3BlYyI6IjB0anA4VWxkNFBvejJIcE0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 # Python MLOps Cookbook 
-This is an example of a Containerized Flask Application the can be the core ingredient in many "recipes", i.e. deploy targets..
+This is an example of a Containerized Flask Application that can be the core ingredient in many "recipes", i.e. deploy targets..
 
 ![mlops-color](https://user-images.githubusercontent.com/58792/121539559-c6787e80-c9d3-11eb-9f48-5d25924fad25.png)
 * [Read Practical MLOps Online](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
@@ -30,12 +30,12 @@ Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-coo
 
 ### CLI Tools
 
-There are two cli tools.  First, the main `cli.py` is the endpoint that serves out predictions.
+There are two CLI tools.  First, the main `cli.py` is the endpoint that serves out predictions.
 To predict the height of an MLB player you use the following: ` ./cli.py --weight 180`
 
 ![predict-height-weight](https://user-images.githubusercontent.com/58792/110970118-6c5e1380-8327-11eb-95b2-aeba679c0270.png)
 
-The second cli tool is `utilscli.py` and this perform model retraining, and could serve as the entry point to do more things.
+The second cli tool is `utilscli.py', and this performs model retraining, and could serve as the entry point to do more things.
 For example, this version doesn't change the default `model_name`, but you could add that as an option by forking this repo.
 
 `./utilscli.py retrain --tsize 0.4`
@@ -43,7 +43,7 @@ For example, this version doesn't change the default `model_name`, but you could
 Here is an example retraining the model.
 ![model-retraining](https://user-images.githubusercontent.com/58792/110986838-31b2a600-833c-11eb-977f-13143d4471c7.png)
 
-Additionally the you can query the API via the CLI allowing you to change both the host and the value passed into the API.
+Additionally you can query the API via the CLI, allowing you to change both the host and the value passed into the API.
 This is accomplished through the requests library.
 
 `./utilscli.py predict --weight 400`
