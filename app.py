@@ -2,10 +2,6 @@ from flask import Flask, request, jsonify
 from flask.logging import create_logger
 import logging
 
-from flask import Flask, request, jsonify
-from flask.logging import create_logger
-import logging
-
 import mlib
 
 app = Flask(__name__)
