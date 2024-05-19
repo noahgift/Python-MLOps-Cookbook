@@ -24,7 +24,7 @@ Feel free to test my ML project:  `docker pull ghcr.io/noahgift/python-mlops-coo
 * `htwtmlb.csv`: [View CSV](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/htwtmlb.csv) Useful for input scaling
 * `model.joblib`: [View model.joblib](https://github.com/noahgift/Python-MLOps-Cookbook/raw/781053e4d45ebeeb64ecdf2dc1b896b338530aab/model.joblib)
 * `Dockerfile`:  [View Dockerfile](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Dockerfile)
-*  `Baseball_Predictions_Export_Model.ipynb`:  [Baseball_Predictions_Export_Model.ipynb](https://github.com/noahgift/Python-MLOps-Cookbook/blob/main/Baseball_Predictions_Export_Model.ipynb)
+*  `Baseball_Predictions_Export_Model.ipynb`:  [Baseball_Predictions_Export_Model.ipynb](https://colab.research.google.com/drive/1mTTXGWp6jERDIBDLIQzBDvvwRciuEGcj?usp=sharing)
 
 ![Course2-Duke-Flask-Containerized](https://user-images.githubusercontent.com/58792/110816231-289cd880-8259-11eb-8ab7-45c4ef5190ad.png)
 
