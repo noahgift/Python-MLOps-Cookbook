@@ -1,23 +1,6 @@
 [![Python application test with Github Actions](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/noahgift/Python-MLOps-Cookbook/actions/workflows/pythonapp.yml)
 [![Python application test with AWS Code Builde](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSjN4ZXRiNllSOVlYWmZqQ2tyS05OOC8wUElNZ05uUFZkVDdKSHVrNzU2L2FzajJXUmlKUngxUkFvOGFTaStMNW9rOUJSS0VTWFRadVpHdWgyN1BLMjA4PSIsIml2UGFyYW1ldGVyU3BlYyI6IjB0anA4VWxkNFBvejJIcE0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
-
-### 🔥 Hot Course Offers:
-* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
-* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
-* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
-* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
-* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
-
-### 🚀 Level Up Your Career:
-* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
-* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
-* 🏢 Trusted by Fortune 500 Teams
-
-Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
-
-
 # Python MLOps Cookbook 
 This is an example of a Containerized Flask Application that can be the core ingredient in many "recipes", i.e. deploy targets..
 
@@ -265,3 +248,6 @@ This repository is focused on MLOps.  To see more about Data Storytelling, you c
 * [Cloud Data Engineering](https://www.coursera.org/learn/cloud-data-engineering-duke?specialization=building-cloud-computing-solutions-at-scale)
 * [Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke?specialization=building-cloud-computing-solutions-at-scale)
 
+<!-- FUNNEL-001 footer: replace Python-MLOps-Cookbook with the repo name -->
+---
+📚 **Learn this hands-on:** [Pragmatic AI Labs courses on Coursera](https://www.coursera.org/partners/pragmatic-ai-labs?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=Python-MLOps-Cookbook) · ✉ [Free newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=Python-MLOps-Cookbook)
