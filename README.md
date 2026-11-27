@@ -7,6 +7,7 @@ This is an example of a Containerized Flask Application that can be the core ing
 ![mlops-color](https://user-images.githubusercontent.com/58792/121539559-c6787e80-c9d3-11eb-9f48-5d25924fad25.png)
 * [Read Practical MLOps Online](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
 * [Purchase Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
+* [Take the MLOps course on Coursera](https://www.coursera.org/specializations/mlops-machine-learning-duke?utm_source=github&utm_medium=repo&utm_campaign=funnel_2026q4&utm_content=python-mlops-cookbook) · [Get the newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=repo&utm_campaign=funnel_2026q4&utm_content=python-mlops-cookbook)
 
 
 ## Github Container Registery
